@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "FOTO RECIBO",
+    "slug": "foto-recibo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "android": {
+      "package": "com.fotorecibo.app",
+      "permissions": ["android.permission.CAMERA", "android.permission.RECORD_AUDIO"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "plugins": [
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "FOTO RECIBO needs camera - mirrored + 5s timer"
+        }
+      ]
+    ]
+  }
+}
